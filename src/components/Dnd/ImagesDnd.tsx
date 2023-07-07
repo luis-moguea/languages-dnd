@@ -35,7 +35,10 @@ const imagesDnd = () => {
           borderColor="gray.300"
           padding="2em"
           width="650px"
-          columns={4}
+          columns={{
+            sm: 2,
+            xl: 4,
+          }}
           spacing="6"
         >
           {languageImage.map((image, index) => (
