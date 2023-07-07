@@ -12,7 +12,7 @@ const React = () => {
   });
 
   return (
-    <Card w="400px" mt="150px">
+    <Card w="400px" mt="50px">
       <Image src={reactLogo} bgColor="white" />
       <CardBody>
         <Text textAlign="justify">

@@ -12,7 +12,7 @@ const Js = () => {
   });
 
   return (
-    <Card w="400px" mt="50px">
+    <Card w="250px" mt="10px">
       <Image src={jsLogo} />
       <CardBody>
         <Text textAlign="justify">

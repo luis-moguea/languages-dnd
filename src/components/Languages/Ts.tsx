@@ -12,7 +12,7 @@ const Ts = () => {
   });
 
   return (
-    <Card w="400px" mt="30px">
+    <Card w="250px" mt="10px">
       <Image src={tsLogo} backgroundSize="cover" />
       <CardBody>
         <Text textAlign="justify">

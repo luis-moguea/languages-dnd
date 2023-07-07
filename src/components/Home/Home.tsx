@@ -10,7 +10,6 @@ const Home = () => {
         justifyContent="center"
         alignItems="center"
         height="100vh"
-        mt="-60px"
       >
         <Heading mt="-40px" padding="1em" as="h2" size="lg">
           Draggable Languages & Tools Logos

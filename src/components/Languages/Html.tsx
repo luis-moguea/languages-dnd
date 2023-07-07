@@ -12,7 +12,7 @@ const Html = () => {
   });
 
   return (
-    <Card w="400px" mt="50px">
+    <Card w="250px" mt="10px">
       <Image src={htmlLogo} backgroundSize="cover" />
       <CardBody>
         <Text textAlign="justify">
