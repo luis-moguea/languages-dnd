@@ -1,4 +1,4 @@
-import { Card, CardBody, Image, Text, Textarea } from "@chakra-ui/react";
+import { Card, CardBody, Image, Textarea } from "@chakra-ui/react";
 import htmlLogo from "../../assets/html-png.png";
 import { useEffect } from "react";
 
