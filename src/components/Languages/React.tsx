@@ -1,4 +1,4 @@
-import { Card, CardBody, Image, Text } from "@chakra-ui/react";
+import { Card, CardBody, Image, Text, Textarea } from "@chakra-ui/react";
 import reactLogo from "../../assets/react-png.png";
 import { useEffect } from "react";
 
@@ -12,15 +12,15 @@ const React = () => {
   });
 
   return (
-    <Card w="400px" mt="50px">
+    <Card w="250px" mt="50px">
       <Image src={reactLogo} bgColor="white" />
       <CardBody>
-        <Text textAlign="justify">
+        <Textarea fontSize="12px" height="100%" textAlign="justify">
           React is a JavaScript library for building user interfaces with
           reusable components, a virtual DOM for efficient updates, and JSX for
           writing HTML-like code within JavaScript. It offers state management,
           routing, and a large ecosystem of libraries and tools.
-        </Text>
+        </Textarea>
       </CardBody>
     </Card>
   );

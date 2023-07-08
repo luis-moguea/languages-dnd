@@ -7,6 +7,7 @@ import {
 import { useState } from "react";
 import { SimpleGrid } from "@chakra-ui/react";
 import { imageArray } from "../../utils/models.ts";
+import { useMediaQuery } from "@chakra-ui/react";
 import ImagesItems from "./ImagesItems.tsx";
 
 const imagesDnd = () => {
@@ -25,16 +26,19 @@ const imagesDnd = () => {
     }
   };
 
+  const [isHigherThan480] = useMediaQuery("(min-width: 480px)");
+
   return (
     <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
       <SortableContext strategy={rectSortingStrategy} items={languageImage}>
         <SimpleGrid
+          justifyItems="center"
           border="solid"
           borderWidth="1px"
           rounded="2xl"
           borderColor="gray.300"
           padding="2em"
-          width="650px"
+          width={isHigherThan480 ? "100%" : "80%"}
           columns={{
             sm: 2,
             xl: 4,

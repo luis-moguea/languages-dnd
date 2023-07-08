@@ -1,4 +1,4 @@
-import { Card, CardBody, Text, Image } from "@chakra-ui/react";
+import { Card, CardBody, Text, Image, Textarea } from "@chakra-ui/react";
 import tsLogo from "../../assets/types-img.png";
 import { useEffect } from "react";
 
@@ -12,17 +12,17 @@ const Ts = () => {
   });
 
   return (
-    <Card w="250px" mt="10px">
+    <Card w="250px" h="400px" mt="10px">
       <Image src={tsLogo} backgroundSize="cover" />
       <CardBody>
-        <Text textAlign="justify">
+        <Textarea fontSize="12px" height="100%" textAlign="justify">
           TypeScript is a statically typed superset of JavaScript that adds
           optional type annotations to enable static type checking during
           development. It helps catch errors early, improves code
           maintainability, and provides enhanced tooling support. TypeScript is
           compatible with JavaScript and compiles down to plain JavaScript for
           browser compatibility.
-        </Text>
+        </Textarea>
       </CardBody>
     </Card>
   );

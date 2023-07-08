@@ -1,4 +1,4 @@
-import { Card, CardBody, Text, Image } from "@chakra-ui/react";
+import { Card, CardBody, Text, Image, Textarea } from "@chakra-ui/react";
 import jsLogo from "../../assets/js.png.png";
 import { useEffect } from "react";
 
@@ -12,15 +12,15 @@ const Js = () => {
   });
 
   return (
-    <Card w="250px" mt="10px">
+    <Card w="250px" h="400px" mt="10px">
       <Image src={jsLogo} />
       <CardBody>
-        <Text textAlign="justify">
+        <Textarea fontSize="12px" height="100%" textAlign="justify">
           JavaScript is a versatile programming language for enhancing webpages
           with interactivity. It enables dynamic content, user interactions, and
           communication with servers, making websites more engaging and
           functional.
-        </Text>
+        </Textarea>
       </CardBody>
     </Card>
   );

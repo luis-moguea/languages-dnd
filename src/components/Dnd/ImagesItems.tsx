@@ -1,6 +1,7 @@
 import { Image } from "@chakra-ui/react";
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
+import { useMediaQuery } from "@chakra-ui/react";
 
 interface Props {
   image: string;
@@ -15,13 +16,15 @@ const ImagesItems = ({ image }: Props) => {
     transition,
   };
 
+  const [isHigherThan480] = useMediaQuery("(min-width: 480px)");
+
   return (
     <Image
       style={style}
       ref={setNodeRef}
       {...listeners}
       {...attributes}
-      width="100px"
+      width={isHigherThan480 ? "50px" : "80px"}
       src={image}
     />
   );

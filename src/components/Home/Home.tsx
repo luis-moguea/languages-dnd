@@ -5,18 +5,13 @@ import LangsComponent from "../LangsComponent";
 const Home = () => {
   return (
     <>
-      <Flex
-        flexDirection="column"
-        justifyContent="center"
-        alignItems="center"
-        height="100vh"
-      >
-        <Heading mt="-40px" padding="1em" as="h2" size="lg">
+      <Flex flexDirection="column" justifyContent="center" alignItems="center">
+        <Heading padding="1em" as="h2" size="lg">
           Draggable Languages & Tools Logos
         </Heading>
         <ImagesDnd />
 
-        <Text fontSize="20px" mt="10px" padding="1em">
+        <Text fontSize="14px" mt="10px" padding="1em">
           Click the buttons below to learn more about those specific programming
           languages!
         </Text>

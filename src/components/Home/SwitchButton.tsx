@@ -5,7 +5,7 @@ const SwitchButton = () => {
 
   return (
     <Switch
-      size="lg"
+      size="md"
       colorScheme="yellow"
       isChecked={colorMode === "dark"}
       onChange={toggleColorMode}
