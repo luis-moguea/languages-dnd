@@ -11,7 +11,7 @@ const LangsComponent = () => {
     <>
       <Flex flexDirection={isHigherThan480 ? undefined : "column"}>
         {myLanguages.map((language, index) => (
-          <Link to={`/langs/${language}`}>
+          <Link key={index} to={`/langs/${language}`}>
             <Text
               textAlign="center"
               textTransform="capitalize"
