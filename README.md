@@ -9,6 +9,7 @@ the user could learn more about some programming languages by clicking the indic
 
 - Drag and drop logos
 - Signing in through a couple of security parameters
+- Light and dark mode switch
 - Learn a little more about some programming languages
 
 ## Technologies
