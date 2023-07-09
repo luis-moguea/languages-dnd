@@ -2,13 +2,13 @@
 
 ## Description
 
-This app allows users to drag and drop some languages and tools logos after signing in the app, also, 
-the user could learn more about some programming languages by clicking the indicated buttons.
+This app allows users to drag and drop some languages and tools logos after login to the app, also 
+the user can learn more about some programming languages by clicking the indicated buttons.
 
 ## Features
 
 - Drag and drop logos
-- Signing in through a couple of security parameters
+- Sign in through a couple of security parameters
 - Light and dark mode switch
 - Learn a little more about some programming languages
 
