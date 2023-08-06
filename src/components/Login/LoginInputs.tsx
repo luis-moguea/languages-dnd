@@ -46,6 +46,7 @@ const LoginInputs = ({ user }: Props) => {
           padding="2em"
           flexDirection="column"
           mt="150px"
+          maxWidth="200px"
         >
           <Input
             type="text"
