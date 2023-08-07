@@ -47,10 +47,9 @@ const LoginInputs = ({ user }: Props) => {
           flexDirection="column"
           mt="150px"
           maxWidth="350px"
-flexDirection="column"
-display="flex"
-alignItems="center"
-justifyContent="center"
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
         >
           <Input
             type="text"
